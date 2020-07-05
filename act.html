@@ -1,0 +1,264 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="scr.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVR-Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1 class="text-danger text-center">CVR COLLEGE OF ENGINEERING</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a href ="http://cvr.ac.in/home4/" class="navbar-brand ">Home</a>
+      <div class="collapse navbar-collapse" id="menu">
+        <span class="mr-auto"></span>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="http://cvr.ac.in/home4/index.php/courses-offered" class="nav-link">
+                    <i class="fa fa-home" ></i> Academics
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="http://cvr.ac.in/home4/index.php/campus" class="nav-link">
+                    <i class="fa fa-info" ></i>
+                    Infrastructure
+                    
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="http://cvr.ac.in/home4/index.php/placements" class="nav-link">
+                    <i class="fa fa-address-card" ></i>
+                    Placements
+                </a>
+            </li>
+            <li class="nav-item">
+              <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </li>
+            
+        </ul>
+    </div>
+  </nav>
+  <br>
+   
+    <div>
+      <img src=".\cvr.png" alt="cvr icon" class="img-fluid img-thumbnail rounded mx-auto d-block">
+    </div>
+    <br>
+   <div class="contaier-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+    <div class="card" style="width:400px">
+      <div class= "card-header">
+          <h3>Chairman</h3>
+          <div class="spinner-border text-danger" id="spinner1"></div>
+      </div>
+     
+        <img id ="img1"src=".\Chairman.jpg" class="card-img-bottom" style="width:100%">
+      
+      <div class="card-body">
+          <h4 id="msg1"></h4>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Profile</button>
+          <div id="demo1" class="collapse">
+             <h1 class="text-info">Dr. Raghava Cherabuddi</h1>
+             <br>
+             
+                   <h2 class="text-justified"> President & Chairman at CVR College of Engineering, Hyderabad</h2>
+    
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card" style="width:400px">
+      <div class= "card-header">
+          <h3>Principal</h3>
+          <div class="spinner-border text-info" id="spinner2"></div>
+      </div>
+     
+        <img id ="img2" src=".\principal.jpg" class="card-img-bottom" style="width:100%">
+      
+      <div class="card-body">
+          <h4 id="msg2"></h4>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Profile</button>
+          <div id="demo2" class="collapse">
+             <h1 class="text-info">Dr. Nayanathara K Sattiraju</h1>
+             <br>
+             
+                   <h2 class="text-justified"> Nayanathara K Sattiraju
+                     Obtained BE (ECE) and ME from the College of Engineering, Osmania University in 1983 and 1985 respectively. She is a recipient of the CMC gold medal in ME. She obtained her doctorate from the National Institute of Technology, Warangal in 2003.</h2>
+    
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card" style="width:400px">
+      <div class= "card-header">
+          <h3>Vice-Principal</h3>
+          <div class="spinner-border text-success" id="spinner3"></div>
+      </div>
+     
+        <img id="img3" src=".\vicep.jpg" class="card-img-bottom" style="width:100%;height : 250px;">
+      
+      <div class="card-body">
+          <h4 id="msg3"></h4>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">Profile</button>
+          <div id="demo3" class="collapse">
+             <h1 class="text-info">prof.L C Shiva Reddy</h1>
+             <br>
+             
+                   <h2 class="text-justified">Vice principal at CVR College of Engineering, Hyderabad</h2>
+    
+          </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div> 
+  <div class="contaier-fluid">
+    <div class="carousel slide " id="car" data-ride="carousel" style="padding-top:55px;" data-interval="2000">
+        <div class="carousel-inner">
+            <ol class="carousel-indicators">
+                <li  data-target="#car" data-slide-to="5" class="active"></li>
+                <li data-target="#car" data-slide-to="1" ></li>
+                <li data-target="#car" data-slide-to="2" ></li>
+                <li data-target="#car" data-slide-to="3" ></li>
+                <li data-target="#car" data-slide-to="4" ></li>
+            </ol>
+            <div class="carousel-item active">
+                <img src=".\home.jpg" class="img-fluid" style="height:400px;
+                width:100%">
+                <div class="carousel-caption">
+                    <h3 class="text-warning bg-dark">Home</h3>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src=".\main.jpg" class="img-fluid" style="height:400px;
+                width:100%">
+                <div class="carousel-caption">
+                    <h3 class="text-warning bg-dark">Main-Block</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src=".\lib.jpg" class="img-fluid" style="height:400px;
+                width:100%">
+                <div class="carousel-caption">
+                    <h3 class="text-warning bg-dark">Library</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src=".\audi.jpg" class="img-fluid" style="height:400px;
+              width:100%">
+              <div class="carousel-caption">
+                  <h3 class="text-warning bg-dark">Auditorium</h3>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src=".\canteen.jpg" class="img-fluid" style="height:400px;
+            width:100%">
+            <div class="carousel-caption">
+                <h3 class="container text-warning bg-dark">Canteen</h3>
+            </div>
+        </div>
+        </div>
+        <a href="#car" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon">
+            </span>
+        </a>
+        <a href="#car" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<div class="container-fluid">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a href="#first" class="nav-link active" data-toggle="tab">
+       Placements
+      </a>
+      
+    </li>
+    <li class="nav-item">
+      <a href="#second" class="nav-link" data-toggle="tab">
+       Activities
+      </a>
+      
+    </li>
+  </ul>
+  <div class="tab-content">
+    <li class="tab-pane active" id ="first">
+      <p>The College has a Centre for Student Services and Placement, which gives personal and career counseling to the students. The idea is to enable students to effectively cope with life at College as well as in their career. One of the major objectives of the centre is to help students in obtaining internships and placements in reputed companies across various industrial sectors. Assistance is also provided to students in procuring higher education opportunities. The College offers special coaching for GATE, TOEFL, and GRE to its students. They are also encouraged to present technical papers at seminars in other colleges with a view to improving their research and presentation skills. Also, during the last few years, several personality development programs have been conducted by experts from industry.
+
+        CVR’ites managed to grab the highest number of recruitments among similar aged institutions. For the 9th year in a row, CVR students have outshined 10s of colleges in securing the highest number of placements in several pool and On Campus recruitment drives.
+        </p>
+    </li>
+    <li class="tab-pane" id ="second">
+      <p>Indoor Games Facilities: 
+        Table Tennis, Chess, Billiards, Gym, Carroms 
+        
+        Other:
+        High quality equipment for all sports is made available to students. Two full time coaches are on staff to provide guidance to students. All the sports facilities are utilized by students every day and also during competitions held for College functions viz., College Day etc. College Bus facility is available up to 6:30 PM on all working days to allow students to spend time playing sports.</p>
+    </li>
+  </div>
+</div>
+<div class="contaier-fluid ">
+<div class="h1 text-secondary bg-light">
+  <p>Rankings:</p>
+</div>
+<div class="h6 text-dark">
+  As of 2017:
+</div>
+
+<div class="progress" >
+  <div class="progress-bar bg-info" style="width: 85%;height: 100%;">
+
+  </div>
+</div>
+<div class="h6 text-dark">
+  As of 2018:
+</div>
+
+<div class="progress" >
+  <div class="progress-bar bg-danger" style="width: 90%;height: 100%;">
+
+  </div>
+</div>
+<div class="h6 text-dark">
+  As of 2019:
+</div>
+
+<div class="progress" >
+  <div class="progress-bar bg-success" style="width: 95%;height: 100%;">
+
+  </div>
+</div>
+</div>
+
+
+ 
+ 
+      
+
+<div class ="contaier-fluid jumbotron  ">
+  <div class="col-6-sm">
+    <p class="text-justified">
+      developed by : @Yashwanth Reddy Dontham
+
+    </p>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+   
+</html>
